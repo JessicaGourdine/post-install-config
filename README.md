@@ -100,14 +100,57 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 <h3>6. Configure Users</h3>
 <ul>
-  <li>Switch to the Agent panel (when you're in the Agent panel, Admin will show as an option and vice versa)</li> <p>
-    <img width="395" alt="osTicket_Agent Panel" src="https://github.com/user-attachments/assets/902df972-8ebc-4231-b3d9-75f1638c115f">
-    <ul>
+ <li><h4>Switch to the Agent panel (when you're in the Agent panel, Admin will show as an option and vice versa)</h4></li> <p>
+    <img width="395" alt="osTicket_Agent Panel" src="https://github.com/user-attachments/assets/902df972-8ebc-4231-b3d9-75f1638c115f"> <p></p>
+<li>User -> Add User</li>
+  <li>Email Address: Karen@osticket.com</li>
+  <li>Full Name: Karen Q</li>
+  <li>Select Add User</li>
+  <img width="649" alt="osTicket_New User" src="https://github.com/user-attachments/assets/65d98ac6-e44c-4798-9e4f-ad864a898061">
 
-<p>
+</ul>
+  </p><h4>Repeat Process for Second User</h4>
+<ul>
+  <li>User -> Add User</li>
+  <li>Email Address: Ken@osticket.com</li>
+  <li>Full Name: Ken Q</li>
+  <li>Select Add User</li>
+  </ul>
+  <h3>7. Configure SLAs</h3>
+  <ul>
+    <li>From the Admin Panel, choose Manage -> SLA</li>
+    <li>Add New SLA Plan</li>
+    <li>Name: Sev-A</li>
+    <li>Grace Period: 1</li>
+    <li>Schedule: 24/7
+      <p><img width="638" alt="osTicket_SLA" src="https://github.com/user-attachments/assets/707a5a09-6abc-4afd-a4b4-cc7f2dff1e76">
+</p>
+    <li>Add New SLA Plan</li>
+    <li>Name: Sev-B</li>
+    <li>Grace Period: 4</li>
+    <li>Schedule: 24/7
+      <p></p>
+      <li>Add New SLA Plan</li>
+    <li>Name: Sev-C</li>
+    <li>Grace Period: 8</li>
+    <li>Schedule: Monday-Friday
+      <p></p>
+  </ul>
+<h3>8. Configure Help Topics</h3>
+<ul>
+  <li>From the Admin Panel -> Manage -> Help Topics</li>
+  <li> Click Add New Help Topic</li>
+  <li>Topic: Business Critical Outage</li><p>
+    <p><img width="505" alt="osTicket_HelpTopics" src="https://github.com/user-attachments/assets/fa3ef572-d1e7-4ece-a5bf-5ef3109e39e2"
+    <p>
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+   <li> Click Add New Help Topic</li>
+  <li>Topic: Personal Equipment Issues</li><p></p>
+   <li> Click Add New Help Topic</li>
+  <li>Topic: Equipment Request</li><p></p>
+   <li> Click Add New Help Topic</li>
+  <li>Topic: Password Reset</li><p></p>
+  
+</ul>
+
+
